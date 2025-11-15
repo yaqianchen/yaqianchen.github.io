@@ -3,152 +3,143 @@
   contents:
     - name: Full Name
       value: Yaqian Chen
-    - name: Phone
-      value: +1 (443) 854-8119
     - name: Email
       value: yaqian.chen@duke.edu
-    - name: Current Position
-      value: Ph.D. Student at Duke University
+    - name: Phone
+      value: +1 (443) 854-8119
+    - name: Affiliation
+      value: Ph.D. Student, Duke University
+    - name: Languages
+      value: English, Mandarin Chinese
+    - name: Location
+      value: Durham, NC, USA
 
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. student in Electrical and Computer Engineering
+    - title: Ph.D. in Electrical and Computer Engineering
       institution: Duke University, Durham, NC
-      year: Sep. 2023 - now
+      year: 2023 - Present
       description:
-        - Maciej Mazurowski's Lab
-        - GPA: 3.88/4.00
+        - Advised by Prof. Maciej A. Mazurowski.
+        - Mazurowski Lab, Duke AI Health Spark Initiative.
+        - GPA 3.88 / 4.00
+
     - title: M.S. in Computer Science
       institution: Johns Hopkins University, Baltimore, MD
-      year: Sep. 2021 - May. 2023
+      year: 2021 - 2023
       description:
-        - Laboratory of Biomechanical and Image Guided Surgical Systems
-        - GPA: 3.7/4.00
+        - Laboratory of Biomechanical and Image Guided Surgical Systems.
+        - GPA 3.7 / 4.00
+
     - title: B.E. in Computer Science and Engineering
       institution: The Chinese University of Hong Kong, Shenzhen, Shenzhen, China
-      year: Sep. 2017 - May. 2021
+      year: 2017 - 2021
       description:
-        - Shenzhen Institute of Artificial Intelligence and Robotics for Society
-        - GPA: 3.68/4.00
+        - Shenzhen Institute of Artificial Intelligence and Robotics for Society.
+        - GPA 3.68 / 4.00
 
-- title: Research Experience
+- title: Experience
   type: time_table
   contents:
-    - title: Doctoral Researcher at Mazurowski Lab, Duke AI Health Spark Initiative
-      institution: Mazurowski's Lab, Duke University, Durham, NC, US
-      year: Sep. 2023 - Now
+    - title: Doctoral Researcher
+      institution: Mazurowski Lab, Duke AI Health Spark Initiative, Duke University
+      year: 2023 - Present
       description:
-        - Supervisor: Dr. Maciej A. Mazurowski
-        - Key Skills: Deep learning, Computer Vision, Foundation models, Image Registration, Image Segmentation
-        - title: Image registration for medical imaging
-          contents:
-            - Developed the first registration network for breast MRI FGT registration, outperforming existing deep learning-based registration models by over 13.01% in dense tissue Dice on both internal and external datasets.
-            - Established five benchmarks for foundation model-based registration in breast MRI (MICCAI workshop best paper award).
-        - title: Image segmentation for medical imaging
-          contents:
-            - Developed automatic CT abdominal muscle and fat segmentation, as well as end-to-end 2D and 3D body composition measurements (MELBA).
-            - Extended existing breast segmentation methods to include breast, vessel, and FGT, enabling breast density estimation on breast MRI and conducted demographic analysis and comparison with traditional breast density measurement on mammograms (npj Breast Cancer).
-        - title: Foundation models for medical imaging
-          contents:
-            - Participated in multiple medical segmentation models development through foundation model finetuning (MIA).
-            - Conducted a rapid, large-scale evaluation of SAM2 across 21 diverse medical imaging datasets within 72 hours of its release, establishing an early and impactful contribution to the field.
-    - title: Research assistant in Shenzhen Institute of Artificial Intelligence and Robotics for Society
-      institution: The Chinese University of Hong Kong, Shenzhen, Shenzhen, China
-      year: Sep. 2017 - May. 2021
-      description:
-        - Supervisor: Dr. Ning Ding
-        - Key Skills: Simultaneous localization and mapping, Robot planning, Computer Vision
-        - Proposed a monocular semantic SLAM system for outdoor UAV applications, addressing the issue of GNSS signal occlusion in urban areas (IEEE RCAR).
+        - Research in deep learning for medical imaging, including foundation models, self-supervised learning, image registration, and segmentation.
+        - Developed registration networks for breast MRI FGT registration, outperforming existing models by over 13.01% in dense tissue Dice.
+        - Established benchmarks for foundation model-based registration in breast MRI (MICCAI workshop best paper award).
+        - Developed automatic CT abdominal muscle and fat segmentation, as well as end-to-end 2D and 3D body composition measurements.
+        - Extended breast segmentation methods to include breast, vessel, and FGT, enabling breast density estimation on breast MRI.
+        - Participated in multiple medical segmentation models development through foundation model fine-tuning.
+        - Conducted rapid, large-scale evaluation of SAM2 across 21 diverse medical imaging datasets.
 
-- title: Research in Progress
-  type: time_table
-  contents:
-    - title: Breast MRI Risk Stratification Study
-      year: Jun. 2025 - now
+    - title: Research Assistant
+      institution: Shenzhen Institute of Artificial Intelligence and Robotics for Society, CUHKSZ
+      year: 2017 - 2021
       description:
-        - Develop multi-center breast MRI evaluation for risk stratification in women with dense breasts.
-        - Analyze correlations between MRI and mammographic density.
-        - Investigate MRI density as a predictor of 5-year cancer risk.
-        - Compare our risk prediction with clinical risk models including GAIL, Tyrer-Cuzick, and CanRisk.
-    - title: Thoracic Trauma Risk Prediction Study
-      year: Jan. 2025 - now
-      description:
-        - Design a clinical decision support tool to predict respiratory failure risk in patients with rib fractures following blunt thoracic trauma.
-        - Develop an AI-based imaging pipeline integrating rib fracture detection, pulmonary contusion segmentation, and anatomical localization using deep learning models.
-        - Integrate imaging-based features (e.g., fracture severity, contusion volume, AIS/BPC18 scores) with physiological and demographic data to develop a multi-modal predictive model.
+        - Proposed a monocular semantic SLAM system for outdoor UAV applications, addressing GNSS signal occlusion in urban areas.
+        - Worked on simultaneous localization and mapping, robot planning, and computer vision.
 
-- title: Intern Experience
-  type: time_table
-  contents:
-    - title: Machine Learning (ML) Course Lecturer
+    - title: Machine Learning Course Lecturer
       institution: UBTECH, Shenzhen, China
-      year: May. 2021 - July. 2021
+      year: 2021
       description:
-        - Prepared and gave a total of 14 lectures for adult students about ML algorithms including classic ML algorithms (regression, dimension reduction, classification) and advanced ML applications including NLP, CV.
-        - Received positive feedback from more than 50 students, got a teaching evaluation score: 5.00/5.00, got a lecture evaluation score: 4.96/5.00.
-        - Prepared lecture materials about robot lectures including ROS use and inertial measurement unit (IMU) use in real-world scenarios include hotel welcome robots, museum guide robots, and hospital assist registration robots.
+        - Prepared and delivered 14 lectures for adult students about ML algorithms including classic ML and advanced applications.
+        - "Received teaching evaluation score: 5.00/5.00, lecture evaluation score: 4.96/5.00."
 
-- title: Selected Publications
+- title: Teaching Experience
   type: time_table
   contents:
-    - title: Breast density in MRI: an AI-based quantification and relationship to assessment in mammography
+    - title: Teaching Assistant
+      institution: Grad Rainforest Engineering, Duke University
+      year: 2024 - 2025
+      description:
+        - Teaching Assistant for graduate-level engineering course.
+
+    - title: Teaching Assistant
+      institution: Machine Learning (601.475), Johns Hopkins University
+      year: 2022 - 2023
+      description:
+        - Teaching Assistant for graduate-level machine learning course.
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/mazurowski-lab/SegmentAnyBone">SegmentAnyBone</a>
       year: 2025
-      description:
-        - Chen, Y., Li, L., Gu, H., et al. npj Breast Cancer, 2025
-    - title: GuidedMorph: Two-Stage Deformable Registration for Breast MRI
-      year: under review
-      description:
-        - Chen, Y., Gu, H., Dong, H., et al. under review at IEEE J-BHI
-    - title: Automated muscle and fat segmentation in computed tomography for comprehensive body composition analysis
-      year: 2025
-      description:
-        - Chen, Y., Gu, H., Dong, H., et al. Machine Learning for Biomedical Imaging (MELBA) 2025
-    - title: "[Co-first, best paper award] Are Vision Foundation Models Ready for Out-of-the-Box Medical Image Registration?"
-      year: 2025
-      description:
-        - Gu, H., Chen, Y., Konz, N., et al. MICCAI workshop 2025
-    - title: Few-shot Learning for Interesting Scene Prediction
-      year: 
-      description:
-        - Chen, Y., Wang, C., Qiu, Y., Scherer, S. RISS Journal, 8, 45–50
-    - title: Pneumatic Soft Haptic Glove for Immersive Mixed-Reality Interactions
-      year: 
-      description:
-        - Chen, Y., Jiang, S., Wang, W., et al. IEEE World Haptics Conference
-    - title: Realtime robust shape estimation of deformable linear object
+      description: A universal bone segmentation model for MRI, generalizing across body regions and sequences.
+
+    - title: <a href="https://github.com/mazurowski-lab/finetune-SAM">Fine-tune SAM</a>
       year: 2024
-      description:
-        - Zhang, J., Zhang, Z., Liu, Z., Chen, Y., et al. IEEE ICRA 2024
+      description: A comprehensive framework benchmarking 18+ fine-tuning strategies for adapting Segment Anything Model (SAM) to medical segmentation.
 
-- title: Awards and Scholarships
-  type: time_table
-  contents:
-    - year: 2025
-      items:
-        - MICCAI workshop best paper award (Co-first author)
-    - year: 2020
-      items:
-        - Summer Research Sponsorship Fund, AIRS, CUHKSZ (May 2020 - Aug. 2020)
-    - year: 2017-2021
-      items:
-        - Dean's List of the School of Science and Engineering, CUHKSZ (Top 20% undergrads)
-    - year: 2017-2018
-      items:
-        - Academic Performance Scholarship, CUHKSZ (Top 30 out of totally 448 undergrads)
+    - title: <a href="https://github.com/mazurowski-lab/SuperMask">SuperMask</a>
+      year: 2023
+      description: A tool for 3D anatomical reconstruction from 2D unaligned MRIs.
 
-- title: Technical Skills
-  type: list
+- title: Honors and Awards
+  type: nested_list
   contents:
-    - <u>Programming Languages & Frameworks:</u> Python, C, C++, ROS, TensorFlow, PyTorch, Matlab, NodeJS, NumPy, Scikit-learn, LaTeX
-    - <u>Tools & Platforms:</u> Linux, Web Spider, CAPSTONE, Real Robot Experience
+    - title: Education
+      items:
+        - Dean's List of the School of Science and Engineering, CUHKSZ (Top 20%, 2017-2021)
+        - Academic Performance Scholarship, CUHKSZ (Top 30 out of 448 undergrads, 2017-2018)
+        - Summer Research Sponsorship Fund, AIRS, CUHKSZ (2020)
+    - title: Research
+      items:
+        - Best Paper Award, MICCAI Workshop (Deep-Breath @ MICCAI 2025) - "Are Vision Foundation Models Ready for Out-of-the-Box Medical Image Registration?"
 
-- title: Professional Skills
-  type: list
+- title: Academic Interests
+  type: nested_list
   contents:
-    - <u>Leadership:</u> Demonstrated strong leadership by managing large-scale research projects with collaborators from Yale University, overseeing progress and task delegation.
-    - <u>Mentorship:</u> Proven mentorship skills through training over 10 interns in machine learning and delivering structured technical lessons.
-    - <u>Communication:</u> Excellent communication skills shown by organizing and leading interdisciplinary meetings with doctors, professors, and researchers.
-    - <u>Grant Writing:</u> Extensive experience in grant writing, having contributed to more than three NIH R01 proposals and independently authored and submitted one complete NIH grant.
-    - <u>Project Management:</u> Strong project management capabilities in coordinating multi-site imaging analysis pipelines and ensuring timely delivery.
-    - <u>Presentation:</u> Experienced in presenting technical work to both clinical and technical audiences, bridging medical needs with AI solutions.
+    - title: Deep Learning for Medical Imaging
+      items:
+        - Medical image segmentation and registration.
+        - Body composition analysis and clinical outcome prediction.
+        - Breast density estimation and risk stratification.
+    - title: Foundation Models and Adaptation
+      items:
+        - Fine-tuning and adapting foundation models for medical imaging.
+        - Self-supervised and semi-supervised learning approaches.
+        - Vision foundation models for medical image registration.
+    - title: Clinical AI Applications
+      items:
+        - Multi-modal data fusion for risk prediction.
+        - Clinical decision support tools.
+        - Integration of imaging-based features with physiological and demographic data.
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Technical Skills
+      items:
+        - Deep Learning: PyTorch, TensorFlow, MONAI, HuggingFace Transformers
+        - Programming: Python, C++, C, MATLAB, ROS, Linux, NodeJS
+        - Tools: NumPy, Scikit-learn, LaTeX, Web Scraping, CAPSTONE
+    - title: Professional Skills
+      items:
+        - Project management and leadership in large-scale research collaborations
+        - Grant writing (contributed to multiple NIH R01 proposals)
+        - Mentorship and teaching (trained 10+ interns, delivered technical lectures)
+        - Interdisciplinary collaboration with clinicians and researchers

@@ -2,18 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Student in Electrical and Computer Engineering at <a href='https://duke.edu'>Duke University</a>
+subtitle: Welcome to Yaqian's homepage!
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: yaqian_pic.jpg
+  image_circular: False # crops the image to make it circular
   more_info: >
-    <p>Mazurowski's Lab</p>
+    <p>yaqian (dot) chen (at) duke (dot) edu</p>
     <p>Duke University</p>
-    <p>Durham, NC, US</p>
-    <p>yaqian.chen@duke.edu</p>
-    <p>+1 (443) 854-8119</p>
+    <p>Durham, NC, United States, 27703</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -29,12 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. student in Electrical and Computer Engineering at Duke University, working in [Maciej Mazurowski's Lab](https://sites.duke.edu/mazurowskilab/) as part of the Duke AI Health Spark Initiative. My research focuses on applying deep learning to medical image analysis, with particular emphasis on medical image segmentation and registration, as well as adapting foundation models through self-supervised, semi-supervised, and fine-tuning approaches.
+About me: I am a Ph.D. student in Electrical and Computer Engineering at Duke University, working at the intersection of AI and Healthcare. I am fortunate to be advised by [Prof. Maciej A. Mazurowski](https://sites.duke.edu/mazurowski/) under [Duke Spark Initiative](https://spark.duke.edu/). My research focuses on applying deep learning to medical image analysis, with particular emphasis on medical image segmentation and registration, foundation models, and clinically relevant AI methodologies.
 
-My current work includes developing registration networks for breast MRI, establishing benchmarks for foundation model-based registration, and creating automated segmentation systems for CT imaging. I have also conducted large-scale evaluations of vision foundation models like SAM2 across diverse medical imaging datasets.
+I am interested in several research topics, including foundation models, self-supervised and semi-supervised learning, fine-tuning strategies, and clinically meaningful AI. My work spans medical image segmentation, registration, body composition analysis, breast density estimation, and risk prediction. I have developed registration networks for breast MRI that outperform existing models, established benchmarks for foundation model-based registration (awarded best paper at MICCAI workshop), and contributed to multiple medical segmentation models through foundation model fine-tuning.
 
-Prior to joining Duke, I completed my M.S. in Computer Science at Johns Hopkins University, where I worked in the Laboratory of Biomechanical and Image Guided Surgical Systems. I also have experience in surgical and general robotics development, with emphasis on path planning and simultaneous localization and mapping (SLAM) from my undergraduate research at The Chinese University of Hong Kong, Shenzhen.
+Before starting my Ph.D. at Duke, I received my Master's degree in Computer Science from Johns Hopkins University, where I worked in the Laboratory of Biomechanical and Image Guided Surgical Systems. Prior to that, I received my Bachelor's degree in Computer Science and Engineering from The Chinese University of Hong Kong, Shenzhen, where I worked on simultaneous localization and mapping (SLAM) and robotics applications.
 
-I am passionate about bridging real-world clinical needs with advanced AI methodologies, and I have demonstrated this through collaborations with clinicians and contributions to multiple NIH grant proposals. My work has been recognized with awards including a best paper award at a MICCAI workshop.
+See my [Google Scholar](https://scholar.google.com/citations?user=iegKFuQAAAAJ&hl=en) for a full list of my publications, with a few highlights shown below.
 
-For more details about my research and publications, please see my [publications page](/publications/) and [CV](/cv/).
+Feel free to contact me through email at [yaqian.chen@duke.edu](mailto:yaqian.chen@duke.edu).
