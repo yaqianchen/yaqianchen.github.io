@@ -20,8 +20,8 @@ lang: en
 
 icon: 🎓
 
-url: https://YaqianChen.github.io
-baseurl: # leave this blank unless you're using a subfolder
+url: https://yaqianchen.github.io
+baseurl:
 
 last_updated: true
 
